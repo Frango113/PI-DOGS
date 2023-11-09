@@ -1,0 +1,57 @@
+.filters {
+    display: grid;
+    width: 100%;
+    height: 100px;
+    grid-template-columns: 110px 110px 110px;
+    gap: 17px;
+    background-color: rgba(255, 255, 255, 0.445);
+    background: linear-gradient(rgb(255rgb(255, 255, 255), 255), black) padding-box,
+    linear-gradient(45deg, white, rgba(0,0,143)) border-box;
+    margin-right: 60px;
+  }
+
+  .filters select {
+    margin-top: 15px;
+    height: 50px;
+    width: 120px;
+    align-self: center;
+    color: rgba(0,0,143);
+    font-size: 20px;
+    padding-left: 8px;
+    border-radius: 5px;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(45deg, #ffffff, rgba(0,0,143)) border-box;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 1px;
+   
+    font-family: 'Share Tech Mono', monospace;
+    border-radius: 2px;
+    border: 5px solid transparent;
+    background: linear-gradient(rgb(240, 238, 238), rgb(255, 255, 255)) padding-box,
+    linear-gradient(45deg, rgb(0,0,143), rgb(0,0,143)) border-box;
+  }
+
+  
+  .filters button {
+    margin-bottom: 10px;
+    height: 60px;
+    width: 115px;
+    align-self: center;
+    color: rgba(0,0,143);
+    font-size: 18px;
+    padding-left: 8px;
+    border-radius: 5px;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(45deg, #ffffff, rgba(0,0,143)) border-box;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 1px;
+  
+    font-family: 'Share Tech Mono', monospace;
+    border-radius: 20px;
+    border: 5px solid transparent;
+    background: linear-gradient(rgb(255, 254, 254), rgb(255, 255, 255)) padding-box,
+    linear-gradient(45deg, white, rgba(0,0,143)) border-box;
+  }
+  

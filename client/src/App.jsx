@@ -24,7 +24,7 @@ export default function App() {
   useEffect(() => {
     dispatch(clearDogs) && navigate("/");
   }, []);
-
+//holi
   return (
     <div className={style.App}>
       <Routes>
